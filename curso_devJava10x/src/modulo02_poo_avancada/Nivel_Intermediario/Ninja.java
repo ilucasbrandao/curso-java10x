@@ -23,4 +23,8 @@ public class Ninja {
         return idade;
     }
     public String getNome(){ return nome;}
+
+    public void habilidadeEspecial() {
+        System.out.println("Meu nome é: " + nome + " , esse é meu ataque especial: ");
+    }
 }
